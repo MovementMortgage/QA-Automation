@@ -1,0 +1,22 @@
+Purchase Con DU,LPA,DU&LPA
+Purchase VA DU(The submitted Loan Application has errors. Please see your error results log for detailed description),LPA,DU&LPA
+Refinance Con DU,LPA(The following fields are required to run loanProductAdvisor:
+Liabilities: mortgage/HELOC liability must be linked to a property 126599),DU&LPA(The following fields are required to run loanProductAdvisor:
+Liabilities: mortgage/HELOC liability must be linked to a property 126600 Run DU&LPA)
+
+Refinace VA DU(Complete the following fields:
+Real estate owned: Property disposition 126601),LPA,DU&LPA
+
+
+Purchase Con DU,LPA,DU&LPA
+Purchase VA  DU&LPA,DU,LPA
+Refinance Con DU&LPA,DU,LPA
+Refinance VA DU&LPA,DU
+
+The following fields are required to run loanProductAdvisor:
+Liabilities: mortgage/HELOC liability must be linked to a property
+
+Purchase Con DU&LPA,DU,LPA
+Purchase VA  DU&LPA,DU,LPA
+Refinance Con DU&LPA,DU,LPA
+Refinance VA  LPA

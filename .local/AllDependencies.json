@@ -5580,15 +5580,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nidhi.goyal\\.nuget\\packages\\": {}
+    "C:\\Users\\jalaj.rajeshpatel\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "mm_ng",
       "projectName": "mm_ng",
-      "projectPath": "C:\\Users\\nidhi.goyal\\Documents\\git\\New folder\\.local",
-      "packagesPath": "C:\\Users\\nidhi.goyal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nidhi.goyal\\Documents\\git\\New folder\\.local"
+      "projectPath": "C:\\Users\\jalaj.rajeshpatel\\Documents\\GitHub\\.local",
+      "packagesPath": "C:\\Users\\jalaj.rajeshpatel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jalaj.rajeshpatel\\Documents\\GitHub\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5619,7 +5619,7 @@
             "version": "[21.4.4, 21.4.4]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\nidhi.goyal\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\jalaj.rajeshpatel\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
       }
     }
   }
