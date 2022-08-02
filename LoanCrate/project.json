@@ -1,0 +1,152 @@
+{
+  "name": "MultiLoanCreationInPCL",
+  "description": "Creating multiple loans in PCL",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.System.Activities": "[21.2.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.2.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.2.0.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "48da14e4-d646-48be-bd83-4dabb17ae6dd",
+        "fileName": "TestCases\\LoanCrate\\Old\\LC_TestCase01_Purchase_DU.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8db79be1-3bac-4ec2-b4c8-fa50672783c6",
+        "fileName": "TestCases\\LoanCrate\\Old\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ed6635ba-19b9-4257-a0c5-52c14e3475a7",
+        "fileName": "TestCases\\LoanCrate\\SelectValue.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8a5a6e50-8dfb-4159-ab5b-8d3fa60d5797",
+        "fileName": "TestCases\\LoanCrate\\Old\\LC_TestCase01_Purchase_DU_LPA.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "27e12dce-c972-488c-be7c-a3be4a3963b9",
+        "fileName": "TestCases\\LoanCrate\\LC_TestCase06_DU_LPA - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3faed217-d52f-4fb9-9cd1-be39a47d89af",
+        "fileName": "TestCases\\LoanCrate\\SelectValue - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a80770bc-7a3e-4e8a-9176-fcd01d99a0a8",
+        "fileName": "TestCases\\LoanCrate\\LC_TestCase03_DU_LPA - Purchase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1bb6d412-c73d-461f-9836-75a0b3d38c94",
+        "fileName": "TestCases\\LoanCrate\\LC_TestCase01_DU - Purchase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1bc7c8d7-31b8-44f3-8cbe-29b50e3d084b",
+        "fileName": "TestCases\\LoanCrate\\LC_TestCase02_LPA - Purchase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "81432fc7-9ca6-4a1b-89cb-aa7a1284ad81",
+        "fileName": "TestCases\\LoanCrate\\LC_TestCase04_DU - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a426d0b7-11cc-4a36-b8e1-62cc77ed9c12",
+        "fileName": "TestCases\\LoanCrate\\LC_TestCase05_LPA - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "befacd8b-182c-4555-b156-db2f6304ea6d",
+        "fileName": "TestCases\\LoanCrate\\Backup\\LC_TestCase01_DU - Purchase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a2a1ccb9-e572-4ff5-9315-5327a04faca4",
+        "fileName": "TestCases\\LoanCrate\\Backup\\LC_TestCase02_LPA - Purchase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8cde56e5-9a0a-410a-8d4c-7071b987eb09",
+        "fileName": "TestCases\\LoanCrate\\Backup\\LC_TestCase03_DU_LPA - Purchase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "08499caf-6236-405a-9dc5-c90eed6a38cd",
+        "fileName": "TestCases\\LoanCrate\\Backup\\LC_TestCase04_DU - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e2c4c3bc-6fe2-45f1-b2b3-46ab2ae7e5ef",
+        "fileName": "TestCases\\LoanCrate\\Backup\\LC_TestCase05_LPA - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a6a345a5-f588-439e-b530-e833a70b6dd9",
+        "fileName": "TestCases\\LoanCrate\\Backup\\LC_TestCase06_DU_LPA - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e9d5a254-1fd6-4464-8570-0711fee0607a",
+        "fileName": "TestCases\\LoanCrate\\Backup\\SelectValue - Refinance.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5343c49c-b06a-436e-a3be-18465d6f0c20",
+        "fileName": "TestCases\\LoanCrate\\Backup\\SelectValue.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "12b0454e-6501-4ace-98aa-6efb4ea2b9ee",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
