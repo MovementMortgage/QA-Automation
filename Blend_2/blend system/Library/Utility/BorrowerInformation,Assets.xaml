@@ -1,0 +1,705 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="PCL_Login" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1224,701" sap2010:WorkflowViewState.IdRef="PCL_Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="62">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>Microsoft.Activities.Extensions.Statements</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="56">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>Microsoft.Activities.Extensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>CustomInputForm</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,137</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,137</av:Point>
+          <av:Size x:Key="ShapeSize">200,66</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap:VirtualizedContainerService.HintSize="639,8323" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:Boolean" Name="expectedElement" />
+          <Variable x:TypeArguments="ui:Image" Name="loginwindow" />
+          <Variable x:TypeArguments="ui:Image" Name="HomeWindow" />
+          <Variable x:TypeArguments="ui:Image" Name="ledgerScreen" />
+          <Variable x:TypeArguments="sd:DataTable" Name="Credentails" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap:VirtualizedContainerService.HintSize="597,8231" sap2010:WorkflowViewState.IdRef="Sequence_18">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Default="Purchase" Name="LoanPurpose" />
+            <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
+            <Variable x:TypeArguments="scg:IEnumerable(x:Object)" Name="inputData" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ReadRange AddHeaders="True" DataTable="[ExcelData]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="555,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Purchase_FHA" WorkbookPath="Data\InputFile.xlsx">
+            <ui:ReadRange.Range>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ui:ReadRange.Range>
+          </ui:ReadRange>
+          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExcelData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="555,8012" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+            <ui:ForEachRow.Body>
+              <ActivityAction x:TypeArguments="sd:DataRow">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="521,7892" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="Borrower Informtion" sap:VirtualizedContainerService.HintSize="479,7800" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;-------------- Borrower information start --------------&quot;]" />
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  it-DataForm-Borr...'" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_15" Text="[row.item(&quot;SSN&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c50f16ed-512c-49fe-9ea5-620f27cbf548" InformativeScreenshot="c6c6a471d9925822e60448b400da4e1d" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-SSN' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;SSN number&quot;]" />
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="437,304" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  it-DataForm-Borr...'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_16" Text="[row.item(&quot;Email address&quot;).ToString]">
+                            <ui:TypeInto.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5ee2b9f1-6d89-4049-92da-bb65021911e6" InformativeScreenshot="f7067277fda491535d7be428d870a843" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-email' tag='INPUT' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TypeInto.Target>
+                          </ui:TypeInto>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="437,261" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,183" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Email address&quot;]" />
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_17" Text="[row.Item(&quot;Date of Birth&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f1bd8cb1-337e-4ab4-9edd-3f0eca3bdcd8" InformativeScreenshot="fa608c19d647de0cb551a189730bd953" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-birthDate' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Date of Birth&quot;]" />
+                    <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="[row.item(&quot;Language&quot;).ToString]">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                          <x:String>Select</x:String>
+                          <x:String>English</x:String>
+                          <x:String>Spanish</x:String>
+                          <x:String>I do not wish to provide this information</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="65acdcde-9903-40fe-8fe0-b9620bdaa53e" InformativeScreenshot="fb6f6396c77356be6b30cb87074bb6f0" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-preferredLangu*' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;Language&quot;]" />
+                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'DIV'" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="SetFocus_2">
+                      <ui:SetFocus.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ff2ebde3-14b1-48b6-9ba9-bfc1b5a7df36" InformativeScreenshot="6ce53f1508ad77cd8140761bd2f0caf8" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-maritalStatus' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SetFocus.Target>
+                    </ui:SetFocus>
+                    <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'Marital Status '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="SelectItem_2" Item="[row.item(&quot;Marital Status&quot;).ToString]">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="8">
+                          <x:String>Select</x:String>
+                          <x:String>Married</x:String>
+                          <x:String>Not Provided</x:String>
+                          <x:String>Separated</x:String>
+                          <x:String>Unmarried</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c9fee6ee-c4e5-4a15-b394-63b62a848bc2" InformativeScreenshot="448efdf01f4d58caa914fa8e4bb46aa2" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-maritalStatus' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;Marital Status&quot;]" />
+                    <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'LABEL'" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="Check_1">
+                      <ui:Check.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bc2a28cc-d68d-4b14-a58c-08a14b28c038" InformativeScreenshot="cebf168f758e9d6c035dee0dc96fe73b" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl idx='2' isleaf='1' parentid='.$CurrentBorrower.hasSimilarToSpouse' tag='LABEL' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:Check.Target>
+                    </ui:Check>
+                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'SELECT '" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="SetFocus_3">
+                      <ui:SetFocus.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d8626c7c-e622-467d-9b9f-9b6506006a4a" InformativeScreenshot="5342a0ca11063ba4febfcde56c747371" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-veteranStatus' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SetFocus.Target>
+                    </ui:SetFocus>
+                    <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'Military status '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="SelectItem_3" Item="Not Applicable">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="8">
+                          <x:String>Select</x:String>
+                          <x:String>Active Duty</x:String>
+                          <x:String>Non-activated Member of the Reserves</x:String>
+                          <x:String>Non-activated Member of the National Guard</x:String>
+                          <x:String>Retired, Discharged, or Separated from Service</x:String>
+                          <x:String>Surviving spouse</x:String>
+                          <x:String>Not Applicable</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4533246c-e5ae-475e-9473-85368a488776" InformativeScreenshot="5342a0ca11063ba4febfcde56c747371" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-veteranStatus' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;Current military status&quot;]" />
+                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'INPUT '" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="SetFocus_4">
+                      <ui:SetFocus.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cdbea657-beb0-4193-97e8-363464c4d3ac" InformativeScreenshot="4f8ee160b312c7642b4820d80c4426b8" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SetFocus.Target>
+                    </ui:SetFocus>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_19" Text="[row.item(&quot;Address 2&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="22b6e873-6574-4c1e-b60f-cc06dccdd7b2" InformativeScreenshot="4f8ee160b312c7642b4820d80c4426b8" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="437,116" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="down" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="75be7a45-035d-4e68-8458-922a1ffc3d03">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="437,116" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="down" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="75be7a45-035d-4e68-8458-922a1ffc3d03">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="437,116" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="enter" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="75be7a45-035d-4e68-8458-922a1ffc3d03">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_20" Text="9991 Warford Street">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3f519c52-d7f2-4232-be01-9f9b531a8b59" InformativeScreenshot="a4d068241cfebba692683b0f17bc26b9" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' name='DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress-li*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="437,304" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_21" Text="[row.item(&quot;City 1&quot;).ToString]">
+                            <ui:TypeInto.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b764544f-c748-4a61-83c2-d763837b996b" InformativeScreenshot="01b244fda2ff4f5fe51ea1784020b5ea" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' name='DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress-ci*' tag='INPUT' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TypeInto.Target>
+                          </ui:TypeInto>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="437,304" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="401,226" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap:VirtualizedContainerService.HintSize="359,134" sap2010:WorkflowViewState.IdRef="SelectItem_4" Item="IA">
+                            <ui:SelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="50">
+                                <x:String>Select</x:String>
+                                <x:String>AL</x:String>
+                                <x:String>AK</x:String>
+                                <x:String>AZ</x:String>
+                                <x:String>AR</x:String>
+                                <x:String>CA</x:String>
+                                <x:String>CO</x:String>
+                                <x:String>CT</x:String>
+                                <x:String>D.C.</x:String>
+                                <x:String>DE</x:String>
+                                <x:String>FL</x:String>
+                                <x:String>GA</x:String>
+                                <x:String>GU</x:String>
+                                <x:String>HI</x:String>
+                                <x:String>ID</x:String>
+                                <x:String>IL</x:String>
+                                <x:String>IN</x:String>
+                                <x:String>IA</x:String>
+                                <x:String>KS</x:String>
+                                <x:String>KY</x:String>
+                                <x:String>LA</x:String>
+                                <x:String>ME</x:String>
+                                <x:String>MD</x:String>
+                                <x:String>MA</x:String>
+                                <x:String>MI</x:String>
+                                <x:String>MN</x:String>
+                                <x:String>MP</x:String>
+                                <x:String>MS</x:String>
+                                <x:String>MO</x:String>
+                                <x:String>MT</x:String>
+                                <x:String>NE</x:String>
+                                <x:String>NV</x:String>
+                                <x:String>NH</x:String>
+                                <x:String>NJ</x:String>
+                                <x:String>NM</x:String>
+                                <x:String>NY</x:String>
+                                <x:String>NC</x:String>
+                                <x:String>ND</x:String>
+                                <x:String>OH</x:String>
+                                <x:String>OK</x:String>
+                                <x:String>OR</x:String>
+                                <x:String>PA</x:String>
+                                <x:String>PR</x:String>
+                                <x:String>RI</x:String>
+                                <x:String>SC</x:String>
+                                <x:String>SD</x:String>
+                                <x:String>TN</x:String>
+                                <x:String>TX</x:String>
+                                <x:String>UT</x:String>
+                                <x:String>VT</x:String>
+                              </scg:List>
+                            </ui:SelectItem.Items>
+                            <ui:SelectItem.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="70fa6a08-389f-40fc-911a-dd52d0d7e963" InformativeScreenshot="3e6f9a48b319445f65ef5872392a1bcd" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' tag='SELECT' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:SelectItem.Target>
+                          </ui:SelectItem>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="437,304" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_22" Text="[row.item(&quot;Zip code 1&quot;).ToString]">
+                            <ui:TypeInto.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f21bd319-c289-41d0-a290-c6a2adedad9c" InformativeScreenshot="71ad2e3da63c55f04d75a3c124270075" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' name='DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress-zi*' tag='INPUT' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TypeInto.Target>
+                          </ui:TypeInto>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="437,266" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,188" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_23" Text="%[k(down)][k(enter)]">
+                            <ui:TypeInto.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="3297f1a8-b5eb-46a9-9c6e-473ca4f2ecb1">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TypeInto.Target>
+                          </ui:TypeInto>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;Present Address&quot;]" />
+                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'INPUT '" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="SetFocus_5">
+                      <ui:SetFocus.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8e2d9b8e-43df-4e53-a211-f926d31dd4f0" InformativeScreenshot="d2fa6fe1ac74802f4b0d4c51ec1e0f2e" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' name='DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress-mo*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SetFocus.Target>
+                    </ui:SetFocus>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_24" Text="11/04/2002">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fe4dae37-560b-452e-8332-f272a9c4f319" InformativeScreenshot="1f64c2000368248521a743bd262ef33b" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' name='DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress-mo*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;Move-in date&quot;]" />
+                    <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="SelectItem_5" Item="Rent">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                          <x:String>Select</x:String>
+                          <x:String>Own</x:String>
+                          <x:String>Rent</x:String>
+                          <x:String>Living Rent Free</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="498a6b27-6d02-41c9-b242-679e2ae4f55f" InformativeScreenshot="e8074ab9da82ad027061f79b51675dab" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddress*' name='DataForm-Borrower-BorrowerInfo-CurrentBorrower-currentAddressRes*' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Occupancy type&quot;]" />
+                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'INPUT '" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="SetFocus_6">
+                      <ui:SetFocus.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="96ce9661-0156-4233-bf7d-9a3d6efb920a" InformativeScreenshot="116a231f2ad9a053e3c409a151716c04" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-PresentHousing*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SetFocus.Target>
+                    </ui:SetFocus>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_25" Text="[row.item(&quot;Monthly Rent&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="64e056da-9a81-4036-b501-59cf009f7236" InformativeScreenshot="116a231f2ad9a053e3c409a151716c04" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-BorrowerInfo-CurrentBorrower-PresentHousing*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Info" Message="[&quot;-------------- Borrower information complete --------------&quot;]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Info" Message="[&quot;....Asset  Information starts&quot;]" />
+                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'INPUT '" sap:VirtualizedContainerService.HintSize="437,106" sap2010:WorkflowViewState.IdRef="SetFocus_7">
+                      <ui:SetFocus.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="369a3644-8a9c-4c55-b4fe-b03170faa41c" InformativeScreenshot="79743556d727a4439cb882af2ef4635b" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-Assets-Assets-financialInstitutions[0]-inst*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SetFocus.Target>
+                    </ui:SetFocus>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_26" Text="[row.item(&quot;Institution name&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e940b1ef-e285-4531-88f6-410fd6784b2b" InformativeScreenshot="79743556d727a4439cb882af2ef4635b" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-Assets-Assets-financialInstitutions[0]-inst*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="437,96" sap2010:WorkflowViewState.IdRef="TypeInto_27" Text="%[k(down)][k(enter)]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="a3ffa153-d750-465e-8933-06a61218ee03">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info" Message="[&quot;Institution name&quot;]" />
+                    <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="SelectItem_6" Item="[row.item(&quot;Account type&quot;).ToString]">
+                      <ui:SelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="32">
+                          <x:String>Select</x:String>
+                          <x:String>Checking</x:String>
+                          <x:String>Brokerage</x:String>
+                          <x:String>Retirement</x:String>
+                          <x:String>Savings</x:String>
+                          <x:String>Trust</x:String>
+                          <x:String>Certificate of Deposit</x:String>
+                          <x:String>Money Market</x:String>
+                          <x:String>Annuity</x:String>
+                          <x:String>Mutual Fund</x:String>
+                          <x:String>Stocks</x:String>
+                          <x:String>Stock Options</x:String>
+                          <x:String>Bonds</x:String>
+                          <x:String>Bridge Loan Proceeds</x:String>
+                          <x:String>Individual Development Account</x:String>
+                          <x:String>Cash Value of Life Insurance</x:String>
+                          <x:String>Other</x:String>
+                        </scg:List>
+                      </ui:SelectItem.Items>
+                      <ui:SelectItem.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3f0994fe-035c-4a21-8b83-b04c95747a18" InformativeScreenshot="e1f280d8848e511ce8240dd0a6af55aa" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-Assets-Assets-financialInstitutions[0]-acco*' tag='SELECT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SelectItem.Target>
+                    </ui:SelectItem>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_28" Text="[row.item(&quot;Cash / market value&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f6190546-f5ad-4b09-b68a-f3fe8c9e13c9" InformativeScreenshot="599f98c41f883a609681c81db94e41c8" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-Assets-Assets-financialInstitutions[0]-acco*' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT '" sap:VirtualizedContainerService.HintSize="437,134" sap2010:WorkflowViewState.IdRef="TypeInto_29" Text="[row.item(&quot;Last 4 of account number&quot;).ToString]">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4e32bc97-dfb0-4dc5-a5ee-38b1248c0f82" InformativeScreenshot="8b7201344c2c370d1ba0a6e16900f821" Selector="&lt;html app='chrome.exe' title='*' /&gt;&lt;webctrl id='it-DataForm-Borrower-Assets-Assets-financialInstitutions[0]-acco*' parentid='.2' tag='INPUT' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="437,91" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info" Message="[&quot;Asset Completed&quot;]" />
+                  </Sequence>
+                </Sequence>
+              </ActivityAction>
+            </ui:ForEachRow.Body>
+          </ui:ForEachRow>
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+  </Flowchart>
+</Activity>
